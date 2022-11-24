@@ -2,9 +2,9 @@
 
 ## YouTube Channel
 
-More video tutorials for geemap and Earth Engine are available on my [YouTube channel](https://www.youtube.com/c/QiushengWu). If you can't access YouTube in your country, you can try [西瓜视频](http://gishub.org/xigua) or [哔哩哔哩](https://space.bilibili.com/527404442)。
+More video tutorials for geemap and Earth Engine are available on my [YouTube channel](https://youtube.com/@giswqs). If you can't access YouTube in your country, you can try [西瓜视频](http://gishub.org/xigua) or [哔哩哔哩](https://space.bilibili.com/527404442)。
 
-[![Earth Engine Tutorials on YouTube](https://wetlands.io/file/images/youtube.png)](https://www.youtube.com/c/QiushengWu)
+[![Earth Engine Tutorials on YouTube](https://wetlands.io/file/images/youtube.png)](https://youtube.com/@giswqs)
 
 ## geemap Tutorials
 
@@ -136,4 +136,5 @@ More video tutorials for geemap and Earth Engine are available on my [YouTube ch
 122. LiDAR data analysis and visualization with whitebox and geemap ([notebook](https://geemap.org/notebooks/122_lidar))
 123. Creating Sentinel-1 SAR imagery timelapse ([notebook](https://geemap.org/notebooks/123_sentinel1_timelapse))
 124. Searching for awesome GEE community datasets ([notebook](https://geemap.org/notebooks/124_more_datasets))
-125. Using Earth Engine datasets example code ([notebook](125_example_code))
+125. Using Earth Engine datasets example code ([notebook](https://geemap.org/notebooks/125_example_code))
+126. Using the improved Inspector GUI ([notebook](https://geemap.org/notebooks/126_inspector))

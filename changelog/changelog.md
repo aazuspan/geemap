@@ -1,5 +1,41 @@
 # Changelog
 
+## v0.17.3 - Nov 19, 2022
+
+**Improvement**:
+
+-   Added GEE workshop notebooks ([#1337](https://github.com/giswqs/geemap/pull/1337))
+-   Updated KML methods ([#1335](https://github.com/giswqs/geemap/pull/1335))
+-   Fixed ipyleaflet.Map broken link ([#1321](https://github.com/giswqs/geemap/pull/1321))
+
+## v0.17.2 - Oct 31, 2022
+
+**Improvement**:
+
+-   Added NASA funding acknowledgment
+-   Added unmask_value parameter to download image [#1270](https://github.com/giswqs/geemap/pull/1270)
+-   Added Japan GEE workshop notebook
+-   Improved Colab error message
+-   Added support for Python 3.11
+-   Added asset type to search result
+-   zonal_stats: additions to allowed_statistics [#1308](https://github.com/giswqs/geemap/pull/1308)
+-   Fixed max zoom bug
+-   Improved split control
+-   Improved local tile
+
+## v0.17.1 - Sep 18, 2022
+
+**New Features**:
+
+-   Added new Inspector GUI [#1264](https://github.com/giswqs/geemap/pull/1264)
+-   Added more sample datasets
+-   Added codeql.yml
+-   Added dependency-review.yml
+
+**Improvement**:
+
+-   Improved chart options
+
 ## v0.17.0 - Sep 11, 2022
 
 **New Features**:
