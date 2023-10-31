@@ -1,5 +1,247 @@
 # Changelog
 
+## v0.29.2 - Oct 25, 2023
+
+**What's Changed**
+
+-   Update changelog for v0.29.1 by @giswqs in [#1783](https://github.com/gee-community/geemap/pull/1783)
+-   **init**.py: Do not wrap an exception when reraising. by @schwehr in [#1785](https://github.com/gee-community/geemap/pull/1785)
+-   Fix draw control geodesic bug by @giswqs in [#1797](https://github.com/gee-community/geemap/pull/1797)
+-   Add notebook 138 for using draw control by @giswqs in [#1798](https://github.com/gee-community/geemap/pull/1798)
+
+**Full Changelog**: [v0.29.1...v0.29.2](https://github.com/gee-community/geemap/compare/v0.29.1...v0.29.2)
+
+## v0.29.1 - Oct 17, 2023
+
+**What's Changed**
+
+-   Update changelog for v0.29.0 by @giswqs in [#1765](https://github.com/gee-community/geemap/pull/1765)
+-   Minor updates to G4G notebook by @giswqs in [#1766](https://github.com/gee-community/geemap/pull/1766)
+-   Fix ee_to_df missing column bug by @giswqs in [#1776](https://github.com/gee-community/geemap/pull/1776)
+-   Optimize create_timeseries for memory by @jdbcode in [#1781](https://github.com/gee-community/geemap/pull/1781)
+-   Keep three camelCase methods by @giswqs in [#1777](https://github.com/gee-community/geemap/pull/1777)
+-   Improve Colorbar for supporting numpy dtypes by @rodrigo-j-goncalves in [#1782](https://github.com/gee-community/geemap/pull/1782)
+
+**New Contributors**
+
+-   @rodrigo-j-goncalves made their first contribution in [#1782](https://github.com/gee-community/geemap/pull/1782)
+
+**Full Changelog**: [v0.29.0...v0.29.1](https://github.com/gee-community/geemap/compare/v0.29.0...v0.29.1)
+
+## v0.29.0 - Oct 7, 2023
+
+**What's Changed**
+
+-   Update changelog for v0.28.2 by @giswqs in [#1760](https://github.com/gee-community/geemap/pull/1760)
+-   Fix raster editor bug by @giswqs in [#1762](https://github.com/gee-community/geemap/pull/1762)
+-   Update G4G Colab notebook by @giswqs in [#1764](https://github.com/gee-community/geemap/pull/1764)
+-   Ensure toolbar buttons toggle widgets, and turn off when widgets are closed. by @sufyanAbbasi in [#1763](https://github.com/gee-community/geemap/pull/1763)
+
+**Full Changelog**: [v0.28.2...v0.29.0](https://github.com/gee-community/geemap/compare/v0.28.2...v0.29.0)
+
+## v0.28.2 - Oct 4, 2023
+
+**What's Changed**
+
+-   Update changelog for v0.28.1 by @giswqs in [#1758](https://github.com/gee-community/geemap/pull/1758)
+-   Hotfix for broken basemap selector in core by @naschmitz in [#1759](https://github.com/gee-community/geemap/pull/1759)
+
+**Full Changelog**: [v0.28.1...v0.28.2](https://github.com/gee-community/geemap/compare/v0.28.1...v0.28.2)
+
+## v0.28.1 - Oct 4, 2023
+
+**What's Changed**
+
+-   Update changelog for v0.28.0 by @giswqs in [#1755](https://github.com/gee-community/geemap/pull/1755)
+-   Add adaptive theming for the search data control by @giswqs in [#1756](https://github.com/gee-community/geemap/pull/1756)
+-   Fix Output widget bug by @giswqs in [#1757](https://github.com/gee-community/geemap/pull/1757)
+
+**Full Changelog**: [v0.28.0...v0.28.1](https://github.com/gee-community/geemap/compare/v0.28.0...v0.28.1)
+
+## v0.28.0 - Oct 3, 2023
+
+**What's Changed**
+
+-   Update changelog for v0.27.4 by @giswqs in [#1751](https://github.com/gee-community/geemap/pull/1751)
+-   Support adaptive theming (and dark mode) of map widgets in Colab by @sufyanAbbasi in [#1753](https://github.com/gee-community/geemap/pull/1753)
+-   Minor visual bug fixes by @naschmitz in [#1754](https://github.com/gee-community/geemap/pull/1754)
+-   more notebook fixes by @biplovbhandari in [#1752](https://github.com/gee-community/geemap/pull/1752)
+
+**Full Changelog**: [v0.27.4...v0.28.0](https://github.com/gee-community/geemap/compare/v0.27.4...v0.28.0)
+
+## v0.27.4 - Oct 2, 2023
+
+**What's Changed**
+
+-   Update v0.27.3 changelog by @giswqs in [#1741](https://github.com/gee-community/geemap/pull/1741)
+-   Update badges and Colab notebook by @giswqs in [#1743](https://github.com/gee-community/geemap/pull/1743)
+-   Add Colab notebook for core features demo by @giswqs in [#1744](https://github.com/gee-community/geemap/pull/1744)
+-   Update 00_geemap_colab.ipynb by @jdbcode in [#1747](https://github.com/gee-community/geemap/pull/1747)
+-   Modify user agent string for geemap.core by @bengalin in [#1748](https://github.com/gee-community/geemap/pull/1748)
+-   Fix typos by @giswqs in [#1749](https://github.com/gee-community/geemap/pull/1749)
+-   Update Colab notebook by @giswqs in [#1750](https://github.com/gee-community/geemap/pull/1750)
+
+**Full Changelog**: [v0.27.3...v0.27.4](https://github.com/gee-community/geemap/compare/v0.27.3...v0.27.4)
+
+## v0.27.3 - Sep 28, 2023
+
+**What's Changed**
+
+-   Fix layer management issues by @naschmitz in [#1740](https://github.com/gee-community/geemap/pull/1740)
+-   Implement draw controls in geemap.core (with toolbar fixes) by @sufyanAbbasi in [#1736](https://github.com/gee-community/geemap/pull/1736)
+
+**Full Changelog**: [v0.27.2...v0.27.3](https://github.com/gee-community/geemap/compare/v0.27.2...v0.27.3)
+
+## v0.27.2 - Sep 28, 2023
+
+**What's Changed**
+
+-   Fix JS-PY conversion bug by @giswqs in [#1733](https://github.com/gee-community/geemap/pull/1733)
+-   Revert dark mode changes to toolbar by @naschmitz in [#1738](https://github.com/gee-community/geemap/pull/1738)
+-   Fix several bugs and add basemap selector to core. by @naschmitz in [#1735](https://github.com/gee-community/geemap/pull/1735)
+
+**Full Changelog**: [v0.27.1...v0.27.2](https://github.com/gee-community/geemap/compare/v0.27.1...v0.27.2)
+
+## v0.27.1 - Sep 24, 2023
+
+**What's Changed**
+
+-   Refactor layer editor into an ipywidgets subclass by @naschmitz in [#1717](https://github.com/gee-community/geemap/pull/1717)
+-   Refactor the legend into an ipywidgets subclass by @jgarcia525 in [#1722](https://github.com/gee-community/geemap/pull/1722)
+-   Fix map horizontal scrollbar issue by @giswqs in [#1728](https://github.com/gee-community/geemap/pull/1728)
+-   Fix map width test error by @giswqs in [#1729](https://github.com/gee-community/geemap/pull/1729)
+-   Update G4G workshop notebook by @giswqs in [#1730](https://github.com/gee-community/geemap/pull/1730)
+
+**New Contributors**
+
+-   @jgarcia525 made their first contribution in [#1721](https://github.com/gee-community/geemap/pull/1721)
+
+**Full Changelog**: [v0.27.0...v0.27.1](https://github.com/gee-community/geemap/compare/v0.27.0...v0.27.1)
+
+## v0.27.0 - Sep 21, 2023
+
+**What's Changed**
+
+-   Add installation CI by @giswqs in [#1656](https://github.com/gee-community/geemap/pull/1656)
+-   Fix vis control error by @giswqs in [#1660](https://github.com/gee-community/geemap/pull/1660)
+-   Fix plotly notebook typo by @giswqs in [#1661](https://github.com/gee-community/geemap/pull/1661)
+-   Refactor inspector into an ipywidgets subclass by @naschmitz in [#1663](https://github.com/gee-community/geemap/pull/1663)
+-   Refactor toolbar into an ipywidgets subclass by @bengalin in [#1664](https://github.com/gee-community/geemap/pull/1664)
+-   Fix computation for number of rows in toolbar by @bengalin in [#1665](https://github.com/gee-community/geemap/pull/1665)
+-   Update pepy badge by @giswqs in [#1668](https://github.com/gee-community/geemap/pull/1668)
+-   Defines an AbstractDrawControl and implementation for the current draw control features. by @sufyanAbbasi in [#1666](https://github.com/gee-community/geemap/pull/1666)
+-   Restore dragging mode after existing split map mode by @kirimaru-jp in [#1669](https://github.com/gee-community/geemap/pull/1669)
+-   Remove trailing spaces by @schwehr in [#1673](https://github.com/gee-community/geemap/pull/1673)
+-   Clean up docs folder by @schwehr in [#1672](https://github.com/gee-community/geemap/pull/1672)
+-   Clean up docs folder by @giswqs in [#1675](https://github.com/gee-community/geemap/pull/1675)
+-   Refactor layer manager into an ipywidgets subclass by @naschmitz in [#1671](https://github.com/gee-community/geemap/pull/1671)
+-   Add unit tests for draw control, defaults to clearing the draw control on reset, handle the last_geometry differently when calling `remove_geometry` by @sufyanAbbasi in [#1674](https://github.com/gee-community/geemap/pull/1674)
+-   Add G4G workshop notebook by @giswqs in [#1676](https://github.com/gee-community/geemap/pull/1676)
+-   Add NLCD 2021 basemap by @giswqs in [#1680](https://github.com/gee-community/geemap/pull/1680)
+-   Clean up layer management ivars. by @naschmitz in [#1684](https://github.com/gee-community/geemap/pull/1684)
+-   Refactor basemap into an ipywidgets subclass by @bengalin in [#1685](https://github.com/gee-community/geemap/pull/1685)
+-   Fix layer visualization GUI bug by @giswqs in [#1687](https://github.com/gee-community/geemap/pull/1687)
+-   Add City+ conference workshop notebook by @giswqs in [#1688](https://github.com/gee-community/geemap/pull/1688)
+-   Remove Google basemaps by @giswqs in [#1681](https://github.com/gee-community/geemap/pull/1681)
+-   Update changelog for v0.26.0 by @giswqs in [#1689](https://github.com/gee-community/geemap/pull/1689)
+-   Add script for generating changelog for mkdocs by @giswqs in [#1690](https://github.com/gee-community/geemap/pull/1690)
+-   Update changelog by @giswqs in [#1691](https://github.com/gee-community/geemap/pull/1691)
+-   Update workshop notebooks by @giswqs in [#1694](https://github.com/gee-community/geemap/pull/1694)
+-   Add close_button_position to split_map by @giswqs in [#1699](https://github.com/gee-community/geemap/pull/1699)
+-   fix notebook link in the docs and example notebook by @biplovbhandari in [#1701](https://github.com/gee-community/geemap/pull/1701)
+-   `ee_to_df` Make prop names and col names same by @jdbcode in [#1703](https://github.com/gee-community/geemap/pull/1703)
+-   Add core module by @naschmitz in [#1692](https://github.com/gee-community/geemap/pull/1692)
+-   Remove left_control/right_control in split_map() before restoring previous value of self.controls by @kirimaru-jp in [#1706](https://github.com/gee-community/geemap/pull/1706)
+-   Set default add_header to False for add_widget by @giswqs in [#1707](https://github.com/gee-community/geemap/pull/1707)
+-   Revert 1 colorbar refactor by @jgarcia525 in [#1721](https://github.com/gee-community/geemap/pull/1721)
+-   Fix ipywidgets dark mode for toolbar buttons on Colab by @giswqs in [#1716](https://github.com/gee-community/geemap/pull/1716)
+
+**New Contributors**
+
+-   @bengalin made their first contribution in [#1664](https://github.com/gee-community/geemap/pull/1664)
+-   @sufyanAbbasi made their first contribution in [#1666](https://github.com/gee-community/geemap/pull/1666)
+-   @kirimaru-jp made their first contribution in [#1669](https://github.com/gee-community/geemap/pull/1669)
+-   @schwehr made their first contribution in [#1673](https://github.com/gee-community/geemap/pull/1673)
+-   @biplovbhandari made their first contribution in [#1701](https://github.com/gee-community/geemap/pull/1701)
+-   @jgarcia525 made their first contribution in [#1721](https://github.com/gee-community/geemap/pull/1721)
+
+**Full Changelog**: [v0.26.0...v0.27.0](https://github.com/gee-community/geemap/compare/v0.26.0...v0.27.0)
+
+## v0.26.0 - Sep 6, 2023
+
+**What's Changed**
+
+-   Add installation CI by @giswqs in [#1656](https://github.com/gee-community/geemap/pull/1656)
+-   Fix vis control error by @giswqs in [#1660](https://github.com/gee-community/geemap/pull/1660)
+-   Fix plotly notebook typo by @giswqs in [#1661](https://github.com/gee-community/geemap/pull/1661)
+-   Refactor inspector into an ipywidgets subclass by @naschmitz in [#1663](https://github.com/gee-community/geemap/pull/1663)
+-   Refactor toolbar into an ipywidgets subclass by @bengalin in [#1664](https://github.com/gee-community/geemap/pull/1664)
+-   Fix computation for number of rows in toolbar by @bengalin in [#1665](https://github.com/gee-community/geemap/pull/1665)
+-   Update pepy badge by @giswqs in [#1668](https://github.com/gee-community/geemap/pull/1668)
+-   Defines an AbstractDrawControl and implementation for the current draw control features. by @sufyanAbbasi in [#1666](https://github.com/gee-community/geemap/pull/1666)
+-   Restore dragging mode after existing split map mode by @kirimaru-jp in [#1669](https://github.com/gee-community/geemap/pull/1669)
+-   Remove trailing spaces by @schwehr in [#1673](https://github.com/gee-community/geemap/pull/1673)
+-   Clean up docs folder by @schwehr in [#1672](https://github.com/gee-community/geemap/pull/1672)
+-   Clean up docs folder by @giswqs in [#1675](https://github.com/gee-community/geemap/pull/1675)
+-   Refactor layer manager into an ipywidgets subclass by @naschmitz in [#1671](https://github.com/gee-community/geemap/pull/1671)
+-   Add unit tests for draw control by @sufyanAbbasi in [#1674](https://github.com/gee-community/geemap/pull/1674)
+-   Add G4G workshop notebook by @giswqs in [#1676](https://github.com/gee-community/geemap/pull/1676)
+-   Add NLCD 2021 basemap by @giswqs in [#1680](https://github.com/gee-community/geemap/pull/1680)
+-   Clean up layer management ivars. by @naschmitz in [#1684](https://github.com/gee-community/geemap/pull/1684)
+-   Refactor basemap into an ipywidgets subclass by @bengalin in [#1685](https://github.com/gee-community/geemap/pull/1685)
+-   Fix layer visualization GUI bug by @giswqs in [#1687](https://github.com/gee-community/geemap/pull/1687)
+-   Add City+ conference workshop notebook by @giswqs in [#1688](https://github.com/gee-community/geemap/pull/1688)
+-   Remove Google basemaps by @giswqs in [#1681](https://github.com/gee-community/geemap/pull/1681)
+
+**New Contributors**
+
+-   @bengalin made their first contribution in [#1664](https://github.com/gee-community/geemap/pull/1664)
+-   @sufyanAbbasi made their first contribution in [#1666](https://github.com/gee-community/geemap/pull/1666)
+-   @kirimaru-jp made their first contribution in [#1669](https://github.com/gee-community/geemap/pull/1669)
+-   @schwehr made their first contribution in [#1673](https://github.com/gee-community/geemap/pull/1673)
+
+**Full Changelog**: [v0.25.0...v0.26.0](https://github.com/gee-community/geemap/compare/v0.25.0...v0.26.0)
+
+## v0.25.0 - Jul 30, 2023
+
+**Improvement**
+
+-   Refactor colorbar into an ipywidgets subclass (#1640)
+-   Fixed PIL import error on Windows (#1649)
+-   Added codes to 114_dynamic_world.ipynb
+-   Added book release (#1645)
+-   Updated installation.md (#1643)
+-   Improved Sentinel-2 timelapse function (#1635)
+-   Fixed Sentinel-2 timelapse bug (#1633)
+
+**Contributors**
+
+@eocce @giswqs @naschmitz @osgeokr
+
+## v0.24.4 - Jul 17, 2023
+
+**Improvement**
+
+-   Fixed timelapse bug (#1631)
+-   Fixed typo (#1630)
+
+## v0.24.3 - Jul 11, 2023
+
+**Improvement**
+
+-   Set Output widget max width (#1626)
+
+## v0.24.2 - Jul 10, 2023
+
+**Improvement**
+
+-   Fixed colorbar width bug (#1624)
+-   Fixed stac layer expression bug (#1623)
+-   Added support for transparent legend (#1622)
+-   Auto copy js-py converted code to clipboard (#1621)
+-   Removed vis_params attribute from TileLayer (#1619)
+-   Dynamic latitude in map scale calc (#1618)
+
 ## v0.24.1 - Jul 6, 2023
 
 **Improvement**
